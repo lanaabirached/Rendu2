@@ -28,14 +28,7 @@ unsigned rendu2_rayon_propagate(float dx, float dy, float ux, float uy,
     float *cx, *cy, *v;
     short   i;
     
-    pt_depart.x = dx;
-    pt_depart.y = dy;
     
-    r_norm.x    = ux;
-    r_norm.y    = uy;
-    
-    centre.x    = *cx;
-    centre.y    = *cy;
     
   // reorganiser en malloc ou garder comme ca ??
     *cx = tabDisque[0][0];

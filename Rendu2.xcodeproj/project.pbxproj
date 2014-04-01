@@ -16,7 +16,8 @@
 		FA6CD34118DAEE2A00B7DCCA /* mac_error.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD34018DAEE2A00B7DCCA /* mac_error.c */; };
 		FA6CD34418DAF31300B7DCCA /* disques.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD34318DAF31200B7DCCA /* disques.c */; };
 		FA6CD36318E194F600B7DCCA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6CD36218E194F600B7DCCA /* GLUT.framework */; };
-		FAE9DDF518E195F700356B7E /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE9DDF418E195F700356B7E /* GLUI.framework */; };
+		FADDE71518E9B1FF00534DB4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADDE71418E9B1FF00534DB4 /* OpenGL.framework */; };
+		FADDE71718E9B21F00534DB4 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADDE71618E9B21F00534DB4 /* GLUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,7 +50,8 @@
 		FA6CD34218DAF30500B7DCCA /* disques.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = disques.h; sourceTree = "<group>"; };
 		FA6CD34318DAF31200B7DCCA /* disques.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = disques.c; sourceTree = "<group>"; };
 		FA6CD36218E194F600B7DCCA /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		FAE9DDF418E195F700356B7E /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = ../../../../../../Library/Frameworks/GLUI.framework; sourceTree = "<group>"; };
+		FADDE71418E9B1FF00534DB4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FADDE71618E9B21F00534DB4 /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = ../../../../../../../Library/Frameworks/GLUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADDE71518E9B1FF00534DB4 /* OpenGL.framework in Frameworks */,
+				FADDE71718E9B21F00534DB4 /* GLUI.framework in Frameworks */,
 				FA6CD36318E194F600B7DCCA /* GLUT.framework in Frameworks */,
-				FAE9DDF518E195F700356B7E /* GLUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +71,8 @@
 		FA6CD32118DAEDA300B7DCCA = {
 			isa = PBXGroup;
 			children = (
-				FAE9DDF418E195F700356B7E /* GLUI.framework */,
+				FADDE71618E9B21F00534DB4 /* GLUI.framework */,
+				FADDE71418E9B1FF00534DB4 /* OpenGL.framework */,
 				FA6CD36218E194F600B7DCCA /* GLUT.framework */,
 				FA6CD32C18DAEDA300B7DCCA /* Rendu2 */,
 				FA6CD32B18DAEDA300B7DCCA /* Products */,
