@@ -10,11 +10,8 @@
 
 #include <math.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 #include "jeu.h"
-#include "error.h"
-#include "V2D.h"
 
 #define MAX_PLAYER 2
 #define MAX_VAL 10

@@ -9,3 +9,5 @@
 #include <stdio.h>
 
 #include "V2D.h"
+#include "disques.h"
+#include "constantes.h"

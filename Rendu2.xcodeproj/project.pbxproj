@@ -12,7 +12,6 @@
 		FA6CD33018DAEDA300B7DCCA /* Rendu2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA6CD32F18DAEDA300B7DCCA /* Rendu2.1 */; };
 		FA6CD33D18DAEDF200B7DCCA /* jeu.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD33718DAEDF200B7DCCA /* jeu.c */; };
 		FA6CD33E18DAEDF200B7DCCA /* rendu1.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD33918DAEDF200B7DCCA /* rendu1.c */; };
-		FA6CD33F18DAEDF200B7DCCA /* V2D.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD33B18DAEDF200B7DCCA /* V2D.c */; };
 		FA6CD34118DAEE2A00B7DCCA /* mac_error.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD34018DAEE2A00B7DCCA /* mac_error.c */; };
 		FA6CD34418DAF31300B7DCCA /* disques.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD34318DAF31200B7DCCA /* disques.c */; };
 		FA6CD36318E194F600B7DCCA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6CD36218E194F600B7DCCA /* GLUT.framework */; };
@@ -161,7 +160,6 @@
 			files = (
 				FA6CD33D18DAEDF200B7DCCA /* jeu.c in Sources */,
 				FA6CD33E18DAEDF200B7DCCA /* rendu1.c in Sources */,
-				FA6CD33F18DAEDF200B7DCCA /* V2D.c in Sources */,
 				FA6CD32E18DAEDA300B7DCCA /* main.cpp in Sources */,
 				FA6CD34118DAEE2A00B7DCCA /* mac_error.c in Sources */,
 				FA0D1B1618E37E9C0016298E /* rendu2.c in Sources */,

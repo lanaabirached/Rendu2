@@ -8,11 +8,23 @@ static int rendu1_sciper_ids[RENDU1_NB_GROUP_MEMBERS] = {234712, 236091};
 
 #include <math.h>
 
-float rendu1_rayon_intersecte (float dx, float dy, float ux, float uy, 
+#include "V2D.h"
+#include "disques.h"
+
+struct ray //Changer place
+{
+    // start point
+    v2d_t d;
+    // directional vector
+    v2d_t u;
+};
+
+
+ray_t rendu1_rayon_intersecte (float dx, float dy, float ux, float uy,
 							   float cx, float cy, float r)
 {
 	// dc : vector between D and C, i : intersection point I,
-	// n  : normalized vector CI, w : 
+	// n  : normalized vector CI, w :
     float dcx = 0, dcy = 0, ix = 0, iy = 0,nx = 0, ny = 0, wx = 0, wy = 0;
     float n_norme, s, v, d, du, un;
     
@@ -42,14 +54,22 @@ float rendu1_rayon_intersecte (float dx, float dy, float ux, float uy,
         
         wx = ux - 2*un*nx;
         wy = uy - 2*un*ny;
-        		
-        return d;
+        
+        ray_t ray;
+        
+        ray.d.x = dx;
+        ray.d.y = dy;
+        ray.u.x = wx;
+        ray.u.x = wy;
+        
+        return ray;
     }
 	
-    else
-    {
-        return -1;
-    }
+        else // return quoi dans ray ?!
+        {
+            ray_t null = {-1,-1};
+            return null;
+        }
 }
 
 ///// DO NOT TOUCH THE PART BELOW! /////

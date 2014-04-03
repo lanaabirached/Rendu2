@@ -14,7 +14,10 @@
 
 struct disque
 {
-    v2d_t centre;
+    // centre du crecle
+    v2d_t center;
+    
+    // valeur du cercle
     unsigned short value;
 };
 
