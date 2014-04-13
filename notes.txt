@@ -1,0 +1,54 @@
+- préciser le responsable des teste de chaque module
+- tester les scripts sh
+- voir 5.2.1 "Tâches pour le Rendu intermédiaire 2" (rapport)
+- afficher état de base de Glui + openGL
+- peut fournir les test avec la cmd
+- load + affichage new game 4 fichiers test sans redémarrer
+- save + load auto après
+- (ajout de callback useless)
+- config.h -> constant.h
+
+## pour le zip ##
+	- Tous vos fichiers sont rassemblés dans un seul fichier archive de type .zip	- Votre fichier archive .zip ne doit PAS contenir de répertoire.	- Le nom de votre fichier .zip contient vos 2 noms de famille : NOM1_NOM2.zip	- Votre fichier archive .zip doit être téléchargé sur moodle (un email sera refusé)	- Votre fichier source contenant la fonction main() doit s’appeler main.cpp.	- Votre Makefile doit contenir des règles pour produire les fichiers objets rendu1.o et rendu2.o.	- L’exécutable produit avec votre Makefile doit s’appeler jeu.x.	- Indiquer les information du groupe (nombre de personnes, N° SCIPER) dans les fichiers rendu1.c et rendu2.c.	- Votre code pour la vérification de format (5.1.3), rendu1.c, et rendu2.c n’affiche rien dans le terminal.
+
+	+ rapport
+	+ test files
+
+## rendu2_rayon_propagate ##
+	- unsigned rendu2_rayon_propagate( float dx, float dy, float ux, float uy, int nbDisque, float tabDisque[][3], short tabHit[]);
+	- P de depart (dx, dy)
+	- direction normalisée (ux, uy)
+	- nombre de disques nbDisque
+	- tag des disques
+	- suppose que rayon en dehors disk
+	- les disque return dans tabHit
+	- return 0 si pas intersecté sinon nDisk touchés
+	- ordres
+		• Copier les fichiers rendu2.c et .h dans votre répertoire de développement du projet.		• Editer rendu2.c pour indiquer le nombre de personnes dans votre groupe (2 ou 1) pour le symbole RENDU1_NB_GROUP_MEMBERS. Indiquer aussi le N° SCIPER de		  chaque membre du groupe dans le tableau rendu1_sciper_ids.		• Ecrire la fonction rendu2_rayon_propagate dans rendu2.c.		• Finalement, exécutez le script rendu_submission_check.sh pour vérifier que votre		  code est compatible avec notre outil de correction automatique (détails en 4.3).
+
+## barème ##
+- justification architecture logicielle (partage des tâches)
+- justification des structures de données
+- liste des fonctions de jeu appelée dans projet.cpp
+- rendu2_rayon_propagate()
+- load avec Glui ou en cmd
+- save
+- stub
+
+## rapport ##
+- en PDF
+- version imprimée
+- pseudocode conseillé
+-
+
+## modules obligatoires ##
+- jeu.c
+- rayon.c
+- disque.c
+- V2D.c
+- graphic.c
+
+## hmmmmm ##
+http://moodle.epfl.ch/mod/forum/discuss.php?d=189381
+http://moodle.epfl.ch/mod/forum/discuss.php?d=189327
+
