@@ -10,7 +10,6 @@
 		4C4DD75018F8225400D45C0A /* view.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C4DD74F18F8225400D45C0A /* view.c */; };
 		4C5C388B18F706AF0010C23F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C388A18F706AF0010C23F /* main.cpp */; };
 		4C5C388D18F706AF0010C23F /* Rendu2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C5C388C18F706AF0010C23F /* Rendu2.1 */; };
-		4CCAFF5418F7088700A9FD0B /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAFF5118F7088700A9FD0B /* GLUI.framework */; };
 		4CCAFF5518F7088700A9FD0B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAFF5218F7088700A9FD0B /* GLUT.framework */; };
 		4CCAFF5618F7088700A9FD0B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAFF5318F7088700A9FD0B /* OpenGL.framework */; };
 		4CD6E64518F8612E00E1EADB /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E64318F8612E00E1EADB /* game.c */; };
@@ -19,6 +18,7 @@
 		4CD6E65418F8616800E1EADB /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E64D18F8616800E1EADB /* error.c */; };
 		4CD6E65518F8616800E1EADB /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E64F18F8616800E1EADB /* mesh.c */; };
 		4CD6E65618F8616800E1EADB /* V2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E65118F8616800E1EADB /* V2D.c */; };
+		FAB6649818FAF50100EF407E /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB6649718FAF50100EF407E /* GLUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,6 @@
 		4C5C388C18F706AF0010C23F /* Rendu2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Rendu2.1; sourceTree = "<group>"; };
 		4CACCA0D18FAB87800A07CFA /* test18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test18.txt; sourceTree = "<group>"; };
 		4CACCA0F18FAB88400A07CFA /* abc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abc.txt; sourceTree = "<group>"; };
-		4CCAFF5118F7088700A9FD0B /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = Library/Frameworks/GLUI.framework; sourceTree = SDKROOT; };
 		4CCAFF5218F7088700A9FD0B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		4CCAFF5318F7088700A9FD0B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		4CD6E64318F8612E00E1EADB /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		4CD6E65018F8616800E1EADB /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
 		4CD6E65118F8616800E1EADB /* V2D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = V2D.c; sourceTree = "<group>"; };
 		4CD6E65218F8616800E1EADB /* V2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2D.h; sourceTree = "<group>"; };
+		FAB6649718FAF50100EF407E /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCAFF5418F7088700A9FD0B /* GLUI.framework in Frameworks */,
 				4CCAFF5518F7088700A9FD0B /* GLUT.framework in Frameworks */,
 				4CCAFF5618F7088700A9FD0B /* OpenGL.framework in Frameworks */,
+				FAB6649818FAF50100EF407E /* GLUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		4C5C387B18F706AF0010C23F = {
 			isa = PBXGroup;
 			children = (
-				4CCAFF5118F7088700A9FD0B /* GLUI.framework */,
+				FAB6649718FAF50100EF407E /* GLUI.framework */,
 				4CCAFF5218F7088700A9FD0B /* GLUT.framework */,
 				4CCAFF5318F7088700A9FD0B /* OpenGL.framework */,
 				4C5C388918F706AF0010C23F /* Rendu2 */,
@@ -232,6 +232,10 @@
 		4C5C389118F706AF0010C23F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/macbook/Desktop/prog\\ projet\\ xcode/Projet\\ 2/Bubbles/Rendu2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -239,6 +243,10 @@
 		4C5C389218F706AF0010C23F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/macbook/Desktop/prog\\ projet\\ xcode/Projet\\ 2/Bubbles/Rendu2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
